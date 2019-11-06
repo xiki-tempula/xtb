@@ -1,3 +1,7 @@
 
 option('la_backend', type : 'string', value : 'mkl',
 description : 'linear algebra backend')
+option('static', type: 'boolean', value: true,
+description: 'Produce statically linked executables')
+option('openmp', type: 'boolean', value: true,
+description: 'Use openMP parallelisation')
